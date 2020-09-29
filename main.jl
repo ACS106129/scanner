@@ -275,7 +275,7 @@ end
     str = open(filename) do file
         read(file, String)
     end
-    io = open("scanner_" * replace(filename, r"\.(txt|c)$" => s".txt"), "w+")
+    io = open("output_" * replace(filename, r"\.(txt|c)$" => s".txt"), "w+")
     tokens = analysis!(Scanner(str))
     for token in tokens
         if token[1] in [TokenType.LN_TOKEN, TokenType.EOS_TOKEN]

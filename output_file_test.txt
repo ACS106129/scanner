@@ -10,6 +10,7 @@
 (Main.TokenType.PRINTF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.STRING_SEQ, (Main.TokenType.DQUOTE, (Main.TokenType.CHAR_SEQ, ("xxx", "yyy", "")), (Main.TokenType.DECIMAL_FORMAT, ""), Main.TokenType.NEWLINE_ESC, Main.TokenType.DQUOTE))(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "k")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.SINGLE_COMMENT, " This is a comment")(Main.TokenType.LN_TOKEN, nothing)
 (Main.TokenType.MULTIPLE_COMMENT, " This is also a comment. ")(Main.TokenType.LN_TOKEN, nothing)
 (Main.TokenType.EOS_TOKEN, nothing)
+### LN_TOKEN is new line token; EOS_TOKEN is end of stream token ###
 ----------------------------------------------------------------------------------------------------
                           Result of file "test.txt"'s tokens
 ----------------------------------------------------------------------------------------------------
