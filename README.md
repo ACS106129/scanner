@@ -4,6 +4,4 @@ An implementation of compiler's scanner
 
 ## Use
 
-[Julia](https://julialang.org/)
-
-> julia main.jl *inputfile*
+> [julia](https://julialang.org/) main.jl *inputfile1 inputfile2 ...*
