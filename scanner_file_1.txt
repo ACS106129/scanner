@@ -1,0 +1,144 @@
+(Main.TokenType.SHARP, nothing)(Main.TokenType.INCLUDE, nothing)(Main.TokenType.LIBRARY_NAME, "<stdio.h>")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.SHARP, nothing)(Main.TokenType.INCLUDE, nothing)(Main.TokenType.LIBRARY_NAME, "<stdlib.h>")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.MAIN, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.LEFT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.CHAR, nothing)(Main.TokenType.IDENTIFIER, "ca")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.INT, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.COMMA, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ig")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.FLOAT, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.EQUAL, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.BIT_AND, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.GREATER, nothing)(Main.TokenType.DEC_CON, "2")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.PLUS, nothing)(Main.TokenType.FLOAT_CON, "3.6")(Main.TokenType.MULTIPLY, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.ELSEIF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.NOT_EQUAL, nothing)(Main.TokenType.DEC_CON, "-5")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.BIT_OR, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.GREATER_EQUAL, nothing)(Main.TokenType.DEC_CON, "2")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.MINUS, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.DIVIDE, nothing)(Main.TokenType.DEC_CON, "4")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.ELSE, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.BIT_XOR, nothing)(Main.TokenType.DEC_CON, "2")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.MODULO, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.FOR, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "0")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.LESS_EQUAL, nothing)(Main.TokenType.DEC_CON, "10")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.DPLUS, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.MULTIPLE_COMMENT, "for loop")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.FOR, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ig")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "ig")(Main.TokenType.LESS, nothing)(Main.TokenType.DEC_CON, "0")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "ig")(Main.TokenType.DMINUS, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.LEFT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.INT, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.MULTIPLY, nothing)(Main.TokenType.FLOAT_CON, "2.5")(Main.TokenType.PLUS, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.DEC_CON, "-3")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.FLOAT, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.PLUS, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.BIT_XOR, nothing)(Main.TokenType.DEC_CON, "3")(Main.TokenType.PLUS, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.RIGHT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.WHILE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.GREATER, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.MINUS, nothing)(Main.TokenType.DEC_CON, "1")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.SINGLE_COMMENT, "while loop")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.DO, nothing)(Main.TokenType.LEFT_BRACE, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.DIVIDE, nothing)(Main.TokenType.DEC_CON, "2")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.MULTIPLY, nothing)(Main.TokenType.DEC_CON, "3")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.PLUS, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.RIGHT_BRACE, nothing)(Main.TokenType.WHILE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.LESS, nothing)(Main.TokenType.DEC_CON, "1")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "ig")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.BIT_AND, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.BIT_OR, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.BIT_OR, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.BIT_AND, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.SWITCH, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ie")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.LEFT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.CASE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.DEC_CON, "0")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "3")(Main.TokenType.MULTIPLY, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.CASE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.DEC_CON, "1")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.MINUS, nothing)(Main.TokenType.DEC_CON, "1")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.CASE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.DEC_CON, "3")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.DIVIDE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.CASE, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.DEC_CON, "4")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.PLUS, nothing)(Main.TokenType.IDENTIFIER, "fa_1")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.RIGHT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.SCANF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.STRING_SEQ, (Main.TokenType.DQUOTE, (Main.TokenType.CHAR_FORMAT, ""), Main.TokenType.DQUOTE))(Main.TokenType.COMMA, nothing)(Main.TokenType.ADDRESS_IDENTIFIER, "ca")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.MULTIPLE_COMMENT, "scanf //\r\n                     scanf")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.SCANF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.STRING_SEQ, (Main.TokenType.DQUOTE, (Main.TokenType.CHAR_SEQ, ("Number", "of", "while", "loop:", "")), (Main.TokenType.DECIMAL_FORMAT, ""), (Main.TokenType.CHAR_SEQ, ("", "")), (Main.TokenType.DECIMAL_FORMAT, ""), (Main.TokenType.CHAR_SEQ, ("loops",)), Main.TokenType.DQUOTE))(Main.TokenType.COMMA, nothing)(Main.TokenType.ADDRESS_IDENTIFIER, "ig")(Main.TokenType.COMMA, nothing)(Main.TokenType.ADDRESS_IDENTIFIER, "ig")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.PRINTF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.STRING_SEQ, (Main.TokenType.DQUOTE, (Main.TokenType.CHAR_SEQ, ("Print", "numbers:", "")), (Main.TokenType.DECIMAL_FORMAT, ""), Main.TokenType.BACKSLASH_ESC, Main.TokenType.HTAB_ESC, (Main.TokenType.FLOAT_FORMAT, ""), (Main.TokenType.DECIMAL_FORMAT, ""), Main.TokenType.NEWLINE_ESC, Main.TokenType.DQUOTE))(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "fb")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.RETURN, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.RIGHT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.EOS_TOKEN, nothing)
+### LN_TOKEN is new line token; EOS_TOKEN is end of stream token ###
+----------------------------------------------------------------------------------------------------
+                        Result of file "file_1.txt"'s tokens
+----------------------------------------------------------------------------------------------------
+Total: 303 tokens
+
+Reserved name: 25
+include	(x2)
+main	(x1)
+char	(x1)
+int	(x2)
+float	(x2)
+if	(x1)
+elseif	(x1)
+else	(x1)
+for	(x2)
+while	(x2)
+do	(x1)
+switch	(x1)
+case	(x4)
+scanf	(x2)
+printf	(x1)
+return	(x1)
+
+Library name: 2
+<stdio.h>	(x1)
+<stdlib.h>	(x1)
+
+Comment: 3
+/*for loop*/	(x1)
+//while loop	(x1)
+/*scanf //
+                     scanf*/	(x1)
+
+Identifier: 56
+ca	(x1)
+ia	(x7)
+ib	(x9)
+ic	(x5)
+ie	(x8)
+ig	(x5)
+fa_1	(x10)
+fb	(x11)
+
+Constant: 27
+5	(x5)
+2	(x4)
+3.6	(x1)
+-5	(x1)
+4	(x2)
+0	(x3)
+10	(x1)
+2.5	(x1)
+-3	(x1)
+3	(x4)
+1	(x4)
+
+Operator: 44
+&	(x3)
+=	(x17)
++	(x6)
+*	(x4)
+|	(x3)
+-	(x3)
+/	(x3)
+^	(x2)
+%	(x1)
+++	(x1)
+--	(x1)
+
+Comparator: 8
+==	(x1)
+>	(x2)
+!=	(x1)
+>=	(x1)
+<=	(x1)
+<	(x2)
+
+Bracket: 64
+{	(x4)
+(	(x28)
+)	(x28)
+}	(x4)
+
+Format specifier: 9
+%c	(x1)
+%d	(x4)
+\\	(x1)
+\t	(x1)
+%f	(x1)
+\n	(x1)
+
+Pointer: 9
+*id	(x9)
+
+Address: 3
+&ca	(x1)
+&ig	(x2)
+
+Punctuation: 46
+#	(x2)
+;	(x26)
+,	(x12)
+"	(x6)
+
+Printed token: 7
+Number	(x1)
+of	(x1)
+while	(x1)
+loop:	(x1)
+loops	(x1)
+Print	(x1)
+numbers:	(x1)
+

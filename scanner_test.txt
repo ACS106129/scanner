@@ -1,0 +1,72 @@
+(Main.TokenType.SHARP, nothing)(Main.TokenType.INCLUDE, nothing)(Main.TokenType.LIBRARY_NAME, "<stdio.h>")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.INT, nothing)(Main.TokenType.IDENTIFIER, "i")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "k")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "m")(Main.TokenType.COMMA, nothing)(Main.TokenType.POINTER_IDENTIFIER, "id")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.FOR, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "i")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "0")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "i")(Main.TokenType.LESS, nothing)(Main.TokenType.DEC_CON, "10")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.IDENTIFIER, "i")(Main.TokenType.DPLUS, nothing)(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.LEFT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "k")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "k")(Main.TokenType.PLUS, nothing)(Main.TokenType.IDENTIFIER, "i")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "m")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "100")(Main.TokenType.MINUS, nothing)(Main.TokenType.IDENTIFIER, "m")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.RIGHT_BRACE, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.PRINTF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.STRING_SEQ, (Main.TokenType.DQUOTE, (Main.TokenType.CHAR_SEQ, ("xxx", "yyy", "")), (Main.TokenType.DECIMAL_FORMAT, ""), Main.TokenType.NEWLINE_ESC, Main.TokenType.DQUOTE))(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "k")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.SINGLE_COMMENT, " This is a comment")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.MULTIPLE_COMMENT, " This is also a comment. ")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.EOS_TOKEN, nothing)
+----------------------------------------------------------------------------------------------------
+                          Result of file "test.txt"'s tokens
+----------------------------------------------------------------------------------------------------
+Total: 53 tokens
+
+Reserved name: 4
+include	(x1)
+int	(x1)
+for	(x1)
+printf	(x1)
+
+Library name: 1
+<stdio.h>	(x1)
+
+Comment: 2
+// This is a comment	(x1)
+/* This is also a comment. */	(x1)
+
+Identifier: 12
+i	(x5)
+k	(x4)
+m	(x3)
+
+Constant: 3
+0	(x1)
+10	(x1)
+100	(x1)
+
+Operator: 6
+=	(x3)
+++	(x1)
++	(x1)
+-	(x1)
+
+Comparator: 1
+<	(x1)
+
+Bracket: 6
+(	(x2)
+)	(x2)
+{	(x1)
+}	(x1)
+
+Format specifier: 2
+%d	(x1)
+\n	(x1)
+
+Pointer: 1
+*id	(x1)
+
+Punctuation: 13
+#	(x1)
+,	(x4)
+;	(x6)
+"	(x2)
+
+Printed token: 2
+xxx	(x1)
+yyy	(x1)
+

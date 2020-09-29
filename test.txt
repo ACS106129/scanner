@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int i, k, m, *id;
+
+for (i = 0; i < 10; i++)
+{
+    k = k + i;
+    m = 100 - m;
+}
+printf("xxx yyy %d\n", k); // This is a comment
+/* This is also a comment. */

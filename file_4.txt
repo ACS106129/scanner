@@ -1,0 +1,12 @@
+<stdio.h>
+int ia, ib, ic, d, *ie, forif;
+ia = ac+3; ia = ib*2;
+forif = ia/5+8;;
+whilefor (ib<3) ib = ib+1;
+scanf("%d", &ac);
+iF (ia>5)  ic = 5;
+ELsE  ic = 10;
+ia = *ib-ic;
+d = 5*ie;
+ib = forif%d;
+ic = forif&ia;

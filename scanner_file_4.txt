@@ -1,0 +1,73 @@
+(Main.TokenType.LIBRARY_NAME, "<stdio.h>")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.INT, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "d")(Main.TokenType.COMMA, nothing)(Main.TokenType.POINTER_IDENTIFIER, "ie")(Main.TokenType.COMMA, nothing)(Main.TokenType.IDENTIFIER, "forif")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.UNIDENTIFIER, "ac")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "forif")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.DIVIDE, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.PLUS, nothing)(Main.TokenType.DEC_CON, "8")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.UNIDENTIFIER, "whilefor")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.SCANF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.STRING_SEQ, (Main.TokenType.DQUOTE, (Main.TokenType.DECIMAL_FORMAT, ""), Main.TokenType.DQUOTE))(Main.TokenType.COMMA, nothing)(Main.TokenType.UNIDENTIFIER, "&ac")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IF, nothing)(Main.TokenType.LEFT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.GREATER, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.RIGHT_PARENTHESE, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.ELSE, nothing)(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "10")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.UNIDENTIFIER, "*ib")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "d")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.DEC_CON, "5")(Main.TokenType.MULTIPLY, nothing)(Main.TokenType.UNIDENTIFIER, "ie")(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "ib")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "forif")(Main.TokenType.MODULO, nothing)(Main.TokenType.IDENTIFIER, "d")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.IDENTIFIER, "ic")(Main.TokenType.ASSIGN, nothing)(Main.TokenType.IDENTIFIER, "forif")(Main.TokenType.BIT_AND, nothing)(Main.TokenType.IDENTIFIER, "ia")(Main.TokenType.SEMICOLON, nothing)(Main.TokenType.LN_TOKEN, nothing)
+(Main.TokenType.EOS_TOKEN, nothing)
+### LN_TOKEN is new line token; EOS_TOKEN is end of stream token ###
+----------------------------------------------------------------------------------------------------
+                        Result of file "file_4.txt"'s tokens
+----------------------------------------------------------------------------------------------------
+Total: 69 tokens
+
+Reserved name: 4
+int	(x1)
+scanf	(x1)
+if	(x1)
+else	(x1)
+
+Library name: 1
+<stdio.h>	(x1)
+
+Identifier: 19
+ia	(x6)
+ib	(x2)
+ic	(x4)
+d	(x3)
+forif	(x4)
+
+Constant: 6
+5	(x4)
+8	(x1)
+10	(x1)
+
+Operator: 13
+=	(x8)
+/	(x1)
++	(x1)
+*	(x1)
+%	(x1)
+&	(x1)
+
+Comparator: 1
+>	(x1)
+
+Bracket: 3
+(	(x2)
+)	(x1)
+
+Format specifier: 1
+%d	(x1)
+
+Pointer: 1
+*ie	(x1)
+
+Punctuation: 15
+,	(x6)
+;	(x7)
+"	(x2)
+
+Unidentifier: 5
+ac	(x1)
+whilefor	(x1)
+&ac	(x1)
+*ib	(x1)
+ie	(x1)
+
